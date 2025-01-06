@@ -84,10 +84,11 @@ main {
     padding: 4rem 1rem;
 }
 
-.title-text {
+.title-text span {
     font-size: 5rem;
-    font-weight: 400;
-    font-family: "Product Sans";
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .input-bar {
