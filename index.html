@@ -1,111 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer type="text/javascript" src="util/script.js"></script>
     <title>Google Home Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="nav-container">
-            <a class="text-link" target="_blank" href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://about.google/%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&ved=0ahUKEwiK-vLi8OGKAxUXg4kEHUc1HAsQkNQCCAI&opi=89978449&usg=AOvVaw13L0SpN0L7ycx9R0_i4R2S">
-                <p>About</p>
-            </a>
-            <a class="text-link" target="_blank" href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://store.google.com/US%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&ved=0ahUKEwiK-vLi8OGKAxUXg4kEHUc1HAsQpMwCCAM&opi=89978449&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">
-                <p>Store</p>
-            </a>
-        </div>
-        <nav class="nav-container nav-container-second">
-            <a class="text-link" target="_blank" href="https://mail.google.com/mail/?authuser=0&ogbl">
-                <p>Gmail</p>
-            </a>
-            <a class="text-link" target="_blank" href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">
-                <p>Images</p>
-            </a>
-            <a 
-                class="icon-link" 
-                target="_blank" 
-                href="https://www.google.com/intl/en/about/products"
-                title="Google apps"
-            >
-                <i class="fa-solid fa-braille"></i>
-            </a>
-            <button class="img-button">
-                <img 
-                    src="public/profile-picture.jpg" 
-                    alt="profile-picture"
-                />
-            </button>
-        </nav>
+      <div class="nav-container">
+        <a
+          class="text-link"
+          target="_blank"
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://about.google/%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&ved=0ahUKEwiK-vLi8OGKAxUXg4kEHUc1HAsQkNQCCAI&opi=89978449&usg=AOvVaw13L0SpN0L7ycx9R0_i4R2S"
+        >
+          <p>About</p>
+        </a>
+        <a
+          class="text-link"
+          target="_blank"
+          href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://store.google.com/US%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&ved=0ahUKEwiK-vLi8OGKAxUXg4kEHUc1HAsQpMwCCAM&opi=89978449&usg=AOvVaw0wvkRBURf91YdMQCXOelDf"
+        >
+          <p>Store</p>
+        </a>
+      </div>
+      <nav class="nav-container nav-container-second">
+        <a
+          class="text-link"
+          target="_blank"
+          href="https://mail.google.com/mail/?authuser=0&ogbl"
+        >
+          <p>Gmail</p>
+        </a>
+        <a
+          class="text-link"
+          target="_blank"
+          href="https://www.google.com/imghp?hl=en&authuser=0&ogbl"
+        >
+          <p>Images</p>
+        </a>
+        <a
+          class="icon-link"
+          target="_blank"
+          href="https://www.google.com/intl/en/about/products"
+          title="Google apps"
+        >
+          <i class="fa-solid fa-braille"></i>
+        </a>
+        <button class="img-button">
+          <img src="public/profile-picture.jpg" alt="profile-picture" />
+        </button>
+      </nav>
     </header>
     <main>
-        <h1 class="title-text">
-            <span style='color: rgb(66, 133, 244)'>G</span>
-            <span style='color: rgb(234, 67, 53)'>o</span>
-            <span style='color: rgb(251, 188, 5)'>o</span>
-            <span style='color: rgb(66, 133, 244)'>g</span>
-            <span style='color: rgb(52, 168, 83)'>l</span>
-            <span style='color: rgb(234, 67, 53)'>e</span>
-        </h1>
-        <div class="input-bar">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input title="Search" />
-            <div>
-                <button class="input-icon">
-                    <i class="fa-solid fa-microphone"></i>
-                </button>
-                <button class="input-icon">
-                    <i class="fa-solid fa-camera"></i>
-                </button>
-            </div>
+      <h1 class="title-text">
+        <span style="color: rgb(66, 133, 244)">G</span>
+        <span style="color: rgb(234, 67, 53)">o</span>
+        <span style="color: rgb(251, 188, 5)">o</span>
+        <span style="color: rgb(66, 133, 244)">g</span>
+        <span style="color: rgb(52, 168, 83)">l</span>
+        <span style="color: rgb(234, 67, 53)">e</span>
+      </h1>
+      <div class="input-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input title="Search" id="search-bar" />
+        <div>
+          <button class="input-icon">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+          <button class="input-icon">
+            <i class="fa-solid fa-camera"></i>
+          </button>
         </div>
-        <div class="button-grid">
-            <button>
-                <p>Google Search</p>
-            </button>
-            <button>
-                <p>I'm Feeling Lucky</p>
-            </button>
-        </div>
-        <p class="sub-text">Upgraded your electronics over the holidays? <a class="sub-text-link" href="https://www.google.com/maps/search/electronics+recycling+near+me?utm_source=HPP&utm_medium=desktop&utm_campaign=Ewaste+Holiday+Campaign+&utm_id=Ewasterecycling&utm_term=US&utm_content=en">Find where to recycle</a> old devices</p>
+      </div>
+      <div class="button-grid">
+        <button type="submit" id="search-btn">
+          <p>Google Search</p>
+        </button>
+        <button>
+          <p>I'm Feeling Lucky</p>
+        </button>
+      </div>
+      <p class="sub-text">
+        Upgraded your electronics over the holidays?
+        <a
+          class="sub-text-link"
+          href="https://www.google.com/maps/search/electronics+recycling+near+me?utm_source=HPP&utm_medium=desktop&utm_campaign=Ewaste+Holiday+Campaign+&utm_id=Ewasterecycling&utm_term=US&utm_content=en"
+          >Find where to recycle</a
+        >
+        old devices
+      </p>
     </main>
     <footer>
-        <div class="footer-grid">
-            <div class="footer-links">
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1%21o2%26fg%3D1&opi=89978449">
-                    <p>Advertising</p>
-                </a>
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1%21o2%26fg%3D1&opi=89978449">
-                    <p>Business</p>
-                </a>
-                <a href="https://google.com/search/howsearchworks/?fg=1">
-                    <p>How Search works</p>
-                </a>
-            </div>
-            <div class="footer-links">
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fsustainability.google%2F&opi=89978449">
-                    <p>Our third decade of climate action: join us</p>
-                </a>
-            </div>
-            <div class="footer-links">
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Den%26fg%3D1&opi=89978449">
-                    <p>Privacy</p>
-                </a>
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Den%26fg%3D1&opi=89978449">
-                    <p>Terms</p>
-                </a>
-                <a href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/preferences%3Fhl%3Den%26fg%3D1&opi=89978449">
-                    <p>Settings</p>
-                </a>
-            </div>
+      <div class="footer-grid">
+        <div class="footer-links">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1%21o2%26fg%3D1&opi=89978449"
+          >
+            <p>Advertising</p>
+          </a>
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1%21o2%26fg%3D1&opi=89978449"
+          >
+            <p>Business</p>
+          </a>
+          <a href="https://google.com/search/howsearchworks/?fg=1">
+            <p>How Search works</p>
+          </a>
         </div>
+        <div class="footer-links">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https%3A%2F%2Fsustainability.google%2F&opi=89978449"
+          >
+            <p>Our third decade of climate action: join us</p>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/privacy%3Fhl%3Den%26fg%3D1&opi=89978449"
+          >
+            <p>Privacy</p>
+          </a>
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://policies.google.com/terms%3Fhl%3Den%26fg%3D1&opi=89978449"
+          >
+            <p>Terms</p>
+          </a>
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&source=webhp&url=https://www.google.com/preferences%3Fhl%3Den%26fg%3D1&opi=89978449"
+          >
+            <p>Settings</p>
+          </a>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
