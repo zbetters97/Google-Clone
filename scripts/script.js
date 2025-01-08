@@ -1,6 +1,12 @@
 let searchString = "";
 
-document.getElementById("search-btn").onclick = function () {
+document.getElementById("search-bar").addEventListener("keydown", function (e) {
+  if (e.code === "Enter") {
+    runSearch();
+  }
+});
+
+function runSearch() {
   searchString = document.getElementById("search-bar").value;
 
   if (searchString === "") {
@@ -14,4 +20,4 @@ document.getElementById("search-btn").onclick = function () {
 
     window.open(URL, "_blank");
   }
-};
+}
